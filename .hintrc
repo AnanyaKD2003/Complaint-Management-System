@@ -1,0 +1,19 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "orphans",
+          "widows",
+          "-webkit-text-size-adjust",
+          "@-ms-viewport",
+          "@-ms-viewport"
+        ]
+      }
+    ]
+  }
+}
